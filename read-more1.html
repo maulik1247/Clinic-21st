@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>How to make a tab slider using HTML CSS and JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/read-more1.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="btn-box">
+        <h2 style="margin-bottom: 20px; color: #1a77cc"> Nursing Homes (ASNH:2011) </h2>
+        <button class="btn active" id="btn1" onclick="tab1()">Preamble</button>
+        <button class="btn" id="btn2" onclick="tab2()">Facility</button>
+        <button class="btn" id="btn3" onclick="tab3()">Ward Patients</button>
+        <button class="btn" id="btn4" onclick="tab4()">Procedure Rooms </button>
+        <button class="btn" id="btn5" onclick="tab5()">Purchase </button>
+        <button class="btn" id="btn6" onclick="tab6()"> Staff </button>
+        <button class="btn" id="btn7" onclick="tab7()"> Infection </button>
+        <button class="btn" id="btn8" onclick="tab8()"> Suggestion </button>
+        <button class="btn" id="btn9" onclick="tab9()"> Annexure </button>
+      </div>
+
+      <div id="content1" class="content">
+        <p>
+          1.0 Procedure for Certification to Accreditation Standard for Nursing
+          Homes (hereafter called as ASNH). <br />
+          <br />
+          <strong> Intent </strong><br />
+          <br />
+
+          <em>
+            To define well-laid procedure for accreditation so that Nursing Home
+            can upgrade and is well aware of steps required.
+          </em>
+          <br />
+          <br />
+          Interested Nursing Home (hereafter called as NH) will have to procure
+          start-up kit which will include standard, draft manual &
+          self-appraisal form from FEQH’s office by making payment of Rs.5,000/=
+          favoring Association of Medical Consultants.<br />
+          <br />
+
+          <ol style="margin-left: 60px;"> 
+
+            <li> The Nursing Home shall upgrade its facilities in order to meet the
+          requirements of ASNH. </li>
+          </ol> <br>
+          
+          <ol style="margin-left: 60px;"> 
+            <li> NH shall approach FEQH with filled-in self appraisal form along with audit fees favoring FEQH as detailed in annexure 1. </li>
+
+
+          </ol> <br>
+
+          <ol style="margin-left: 60px;"> 
+            <li> <storng> A </storng> FEQH will scrutinize application and if found
+          acceptable, nominate audit team which will visit the NH on a mutually
+          convenient date & time and conduct the audit.</li> <br>
+
+            <li> <storng> B </storng> If the application
+          form is incomplete or has deficiencies, NH will be informed
+          accordingly to enable them to resubmit the same after necessary
+          corrections. fter receipt of acceptable form, steps mentioned in 1.4
+          A will be followed. </li><br>
+
+          </ol> <br>
+
+
+
+          <ol style="margin-left: 60px;"> 
+            <li> The Nursing Home will be informed about the outcome of the audit within 30 days. The audit team will either </li> <br>
+
+            
+
+          </ol> <br>
+          
+          <ol style="margin-left: 100px;"> 
+            <li> Approve the Nursing Home for certification. </li>
+
+          </ol>
+
+          <p style="margin-left: 200px;"> or </p>
+
+          <ol style="margin-left: 100px;"> 
+            <li> Ask to make modifications to meet ASNH. </li>
+
+          </ol> <br>
+            
+
+          
+          <p> In case of 1.5.2, a follow-up visit may be required. In case of follow-up visit, re-visit fee of Rs. 5,000 will be charged. </p>
+
+          <ul style="margin-left: 100px;"> 
+            <li> Certified Nursing Homes will be informed about acceptance and will be conferred with the certificate. Their name will be put under certified members on the website www.qcimumbai.com.</li>
+          </ul>
+        </p>
+        <a target="_self" href="index.html" class="hero-btn">Back</a>
+      </div>
+
+      <div id="content2" class="content">
+         <p>
+          Facility Standard for Nursing Homes.
+          <br />
+
+          <p> Definition: Any commercial / charitable establishment registered under Section 5 of Maharashtra (Bombay) Nursing Home Registration Act or daycare center doing ambulatory surgeries. </p>
+          <strong> Intent </strong><br />
+          <br />
+
+          <em>
+            To specify minimum infrastructure requirement and their objective elements.
+
+          </em>
+          <br />
+          
+          
+          <p> <strong> 2.1 Scope of the services: </strong>  </p>
+
+          <ol type="a" style="margin-left: 15px;"> 
+
+            <li> Name of the NH and its permanent location with relevant details, year of establishment shall be documented. Details of ownership of NH with legal identity shall be declared. </li> <br>
+
+
+            <li> Details of scope of services provided should be declared by NH Management. The services being provided shall be governed by competent regulatory, statutory, or legal requirement applicable from time to time.</li>
+          </ol>
+          
+
+          <p> <strong> 2.2 Medical professionals: </strong> </p>
+          <ol style="margin-left: 60px;"> 
+            <li> NH shall list all the Medical Professionals whose services are available in NH. The list shall include their names, degrees, Council registration number, and contact details. </li>
+
+
+          </ol>
+
+          <p> <strong> 2.3 Waiting rooms: </strong> </p>
+
+          <ol style="margin-left: 60px;"> 
+            <li> Shall be well-lit, comfortable with recreation material to make waiting experience educative, informative and relaxing. Emergency light, clean toilet and safe drinking water should be available free of charge. </li> <br>
+            <li> Quality Policy shall be displayed </li> <br>
+            <li> Patients’ rights and responsibilities shall be displayed </li> <br>
+
+          </ol>
+
+          <table style="width:80%">
+            <tr>
+              <th> Sr.No </th>
+              <th> Element </th>
+              <th> Minimum </th>
+              <th> Optimum </th>
+              <th> Excellent </th>
+            </tr>
+            <tr>
+              <td>1 </td>
+              <td> Objective element </td>
+              <td> 1 </td>
+              <td> 1,2 </td>
+              <td> 1,2,3 </td>
+            </tr>
+          </table>
+
+          <p> <strong> 2.4 Examination rooms: </strong>  </p>
+
+          <p> Shall be well-lit, comfortable and have basic necessities like examination table, x-ray viewer, weighing scale, thermometer, BP apparatus, examination trolley, wash basin, glucometer, nebulizer etc. There should be facility to provide necessary privacy during examination. </p>
+
+          <table style="width:80%">
+            <tr>
+              <th> Sr.No </th>
+              <th> Element </th>
+              <th> Minimum </th>
+              <th> Optimum </th>
+              <th> Excellent </th>
+            </tr>
+            <tr>
+              <td>1 </td>
+              <td> Area in sq.ft. </td>
+              <td> 50 to 70 </td>
+              <td> 71 to 100 </td>
+              <td> > 100 </td>
+            </tr>
+          </table>
+          
+        <a target="_self" href="index.html" class="hero-btn">Back</a>
+      </div>
+
+      <div id="content3" class="content">
+        <br>
+        <strong> Ward / Patients’ Rooms: </strong>
+           <br /> <br>
+
+          <ol style="margin-left: 60px;">
+
+            <li> Shall be provided with all essential items like cot with call bell, side table, wall clock, toilet, bathroom, stand for IV fluids, chair for attendant etc. </li> <br> 
+            <li> Portable suction machine, ambu bag, plastic/ rubber sheet on cot shall be available. </li> <br>
+            <li> There shall be adequate number of urine pots and bed pans, emergency light and mosquito mats wherever necessary. </li> <br>
+            <li> There should be at least 1 toilet per 5 cots. </li> <br>
+            <li> In case of general wards, the toilet should have door closure and exhaust fan. </li> <br>
+            <li> Patients’ linen shall be changed daily or earlier, if soiled. </li> <br>
+          </ol> 
+          
+          <table style="width:80%">
+            <tr>
+              <th> Sr.No </th>
+              <th> Element </th>
+              <th> Minimum </th>
+              <th> Optimum </th>
+              <th> Excellent </th>
+            </tr>
+
+            <tr>
+              <td>1 </td>
+              <td> Objective element </td>
+              <td> 1 </td>
+              <td> 1,2 </td>
+              <td> 1,2,3 </td>
+            </tr>
+
+            <tr>
+              <td>2 </td>
+              <td> Area in sq.ft. </td>
+              <td> 40 </td>
+              <td> 40 to 70 </td>
+              <td> Above 70 </td>
+            </tr>
+
+            <tr>
+              <td> 3</td>
+              <td> Passage Width </td>
+              <td> 3' </td>
+              <td> 3' </td>
+              <td> 3.5' </td>
+            </tr>
+
+
+            <tr>
+              <td> 4 </td>
+              <td> Nursing Station </td>
+              <td> Conceptual </td>
+              <td> Defined </td>
+              <td> Defined </td>
+            </tr>
+          </table>
+
+
+
+          <p> <strong> Operation Theatre: </strong> </p>
+          
+          <p> The size of OT should be as mentioned in Annexure 2.</p>
+
+          <ul style="margin-left: 30px;"> 
+            <li> NH shall maintain records of vital processes pertaining to O.T. sterilization and the same should be available in the vicinity. </li> <br>
+            <li> Air Sample and at least 6 OT swabs shall be checked at least once in 3 months for microbial count.</li> <br> 
+            <li> There shall not be any expired medicine in NH. </li> <br>
+            <li> Recommended list of items and medicines which shall be available are detailed in annexure-2. NH shall prepare explanatory note if they are deviating from the standard.</li>
+
+          </ul>
+            
+
+        <a
+          target="_self"
+          href="index.html"
+          class="hero-btn"
+          style="align-items: center"
+        >
+          Back
+        </a>
+      </div>
+
+      <div id="content4" class="content">
+        <p>
+          <p> <strong> Minor OT, Procedure Rooms: </strong>
+           <br />
+
+          <ol style="margin-left: 60px;">
+
+            <li> The size should be adequate for the purpose. </li> <br> 
+            <li> Should have adequate equipments and staff to deal with situation suitably.</li> <br>
+            <li> Infection control practices shall be observed. </li>
+          </ol> 
+          
+
+          <p> <strong> Delivery Room: </strong>
+           <br />
+
+          <ol style="margin-left: 60px;">
+
+            <li> Recommended list of items and medicines which shall be available are detailed in annexure-3. </li>
+          </ol> 
+
+
+          <p> <strong> Records: </strong>
+           <br />
+
+          <ol style="margin-left: 60px;">
+
+            <li> NH shall maintain list of important documents. </li> <br> 
+            <li> For every admitted patient, NH shall maintain detailed record and information of name, address, contact number, medical history, allergies, treatment rendered, medicines prescribed, etc. </li> <br> 
+            <li> Consent Form shall be an integral part of patient record. </li> <br> 
+            <li> Anesthetist’s notes with doctor’s name and signature shall be an integral part of patient record. </li> <br> 
+            <li> All old records shall be maintained at least for 3 years, filed date-wise and be retrievable in reasonable time </li> <br> 
+            <li> Footprints of newborns shall be taken on case paper.</li> <br> 
+            <li> Pre-operative check list shall be an integral part of patient’s record.</li> <br> 
+            <li> All records will be on real time basis.</li> <br> 
+
+          </ol> 
+           
+          <table style="width:80%">
+            <tr>
+              <th> Item </th>
+              <th> Minimum </th>
+              <th> Optimum </th>
+              <th> Excellent </th>
+            </tr>
+
+            <tr>
+              <td> Objective element </td>
+              <td> 1, 2, 3, 4, 5 </td>
+              <td> 1, 2, 3, 4, 5, 6 </td>
+              <td> 1, 2, 3, 4, 5, 6, 7, 8 </td>
+            </tr>
+
+          </table>
+            
+
+        </p>
+        </p>
+        <a target="_self" href="index.html" class="hero-btn">Back</a>
+      </div>
+
+      <div id="content5" class="content">
+       
+        <p>
+          <p> <strong>Purchase procedure: </strong>
+           <br />
+
+            <ol style="margin-left: 60px;">
+
+            <li> NH should maintain list of approved suppliers. </li> <br> 
+            <li> Nursing Home shall have defined purchase procedure and should verify purchased products. </li> <br>
+            <li> NH should maintain a list of vendors of outsourced processes like, security, medical laboratory, canteen etc. </li>
+            </ol> <br>
+
+          
+
+
+          
+
+        
+
+            
+            
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1, 2, 3, 4, 5 </td>
+                <td> 1, 2, 3, 4, 5, 6 </td>
+                <td> 1, 2, 3, 4, 5, 6, 7, 8 </td>
+              </tr>
+
+          </table>
+
+
+          <p> <strong>Control on outsourced activities:</strong>
+
+            <ol style="margin-left: 60px;">
+
+            <li> Nursing Home shall establish controls over outsourced activities. </li> <br> 
+            <li>In case pathological investigations are obtained from labs which are under External Quality Assurance Scheme (EQAS), the copy of certificate of participation should be available. </li> <br>
+            <li> In case the path lab is not under EQAS, NH should validate at least 6 parameters once in 3 months. </li><br>
+            <li> NH shall inform alert values to medical laboratory and ensure that alerts are triggered by them.   </li>
+            </ol> <br>
+
+
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1</td>
+                <td> 1, 2, 3</td>
+                <td> 1, 2, 3, 4</td>
+              </tr>
+
+            </table>
+
+            
+
+          </p>
+        </p>
+        <a
+          target="_self"
+          href="index.html"
+          class="hero-btn"
+          style="align-items: center"
+        >
+          Back
+        </a>
+      </div>
+
+      <div id="content6" class="content">
+        <p>
+          <strong> 3.0 </strong> Staff
+          <br> <br>
+          <strong> Intent </strong> 
+          <br> <br>
+
+          <em> To groom staff as good healthcare workers in safe environment. To encourage human resources to orient with good practices in infection control, sterilization & patient’s care.</em> <br> <br>
+
+          <strong> 3.1 Staff - other than Nursing & Technical: </strong> <br>
+
+          <ol style="margin-left: 60px;"> <br>
+
+            <li> Biodata of all employees shall be maintained at NH. </li> <br> 
+            <li> Shall be provided with lab coat/uniform and identity card. </li> <br>
+            <li> Staff shall be aware about the accreditation program. </li> <br>
+            <li> Staff coming in contact with patients shall undergo health check-up for communicable diseases once in three years.
+            </li> <br>
+            <li> Staff should undergo training for bio-medical waste disposal.</li> <br>
+            <li> Staff should undergo induction program before assuming duties.</li> <br>
+            </ol> 
+          </p>
+
+          <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1, 2</td>
+                <td> 1, 2, 3, 4</td>
+                <td> 1, 2, 3, 4, 5, 6</td>
+              </tr>
+
+          </table> <br>
+
+
+          <strong> 3.2 Staff - Nursing & Technical Staff: </strong> <br>
+          <ol style="margin-left: 60px;"> <br>
+
+            <li> Same as above and Xerox copies of certificates should be available. </li> <br> 
+            <li> Nurses will be provided with appropriate uniform and shall be aware of NH’s medicine scoring system. </li> <br>
+            <li> Should be aware of various procedures that are practiced in NH. </li> <br>
+            <li> Staff should undergo training for first aid.
+            </li> <br>
+            <li> Nursing Audit / skill evaluation should be conducted at least once during validity of the ASNH.  </li> <br>
+          </ol>
+
+
+          <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1, 2</td>
+                <td> 1, 2, 3</td>
+                <td> 1, 2, 3, 4, 5</td>
+              </tr>
+
+          </table>
+
+        </p>
+        <a
+          target="_self"
+          href="index.html" 
+          class="hero-btn"
+          style="align-items: center"
+        >
+          Back
+        </a>
+      </div>
+
+      <div id="content7" class="content">
+         
+        <p>
+          <p> <strong>Infection control:</strong>
+           <br />
+
+            <ol style="margin-left: 60px;">
+
+            <li>Waste segregation, hand wash procedures and other preventive practices are well practiced.</li> <br> 
+            
+            </ol>
+
+            <ol style="margin-left: 60px;">
+
+            <li>All nursing & technical staff members shall be immunized against communicable diseases.</li> <br> 
+            <li>Systematic efforts should be made to control hospital acquired infection. </li> <br> 
+            
+            </ol>
+
+
+            
+
+          
+
+
+          
+
+        
+
+            
+            
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1</td>
+                <td> 1, 2</td>
+                <td> 1, 2, 3</td>
+              </tr>
+
+          </table>
+
+
+          <p> <strong>4.0   Facility management and safety :</strong>
+
+            <p> <strong> Intent </strong> </p>
+
+            <em> Provision of safe and secure environment for patients, their families, staff and other visitors. </em>
+
+            <p> <strong>  4.1   Risk Mitigation: </strong></p>
+
+            <ol style="margin-left: 60px;">
+
+            <li> The Nursing Home shall have adequate number of fire extinguishers (1.5 Kgs per 1500 Sq.Ft.) & first aid box. Safety issue should be looked into on a case to case basis. </li> <br> 
+            <li>List of emergency numbers shall be available with key staff members present in NH. </li> <br>
+            
+            </ol> <br>
+
+            <p> <strong>  4.2   Social accountability: </strong></p>
+
+            <ol style="margin-left: 60px;">
+
+            <li> Child labor shall not be employed. </li> <br> 
+            <li>Staff members shall not be exploited or physically punished. </li> <br>
+            <li>There should be staff welfare program. </li> <br>
+            <li>There should be program for under privileged of society. </li> <br>
+            
+            </ol>
+
+
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1,2 </td>
+                <td> 1, 2 </td>
+                <td> 1, 2, 3, 4</td>
+              </tr>
+
+            </table>
+
+            <p> <strong>  4.3   Emergency services: </strong></p>
+
+            <ul style="margin-left: 80px;">
+              <li> In the event any emergency arises, there should be tie-up with Emergency Response System (ERS) provider or cardiac ambulance service & details of this arrangement shall be displayed in waiting room prominently.</li>
+            </ul>
+
+            
+
+          </p>
+        </p>
+
+
+
+
+
+
+          
+        
+        
+        
+        <a
+          target="_self" href="index.html" class="hero-btn" style="align-items: center" > Back </a>
+      </div>
+
+      <div id="content8" class="content8">
+        <p>
+          <p> <strong>5.0   Suggestion / Complaint box:</strong>
+           <br />
+
+           <p> <strong>Intent </strong>
+           <br />
+
+           <br>
+           <em> Suggestions and complaints are learning tools for any organization and need to be looked into seriously. Suggestions and complaints from other stake holders also need to be obtained.</em> <br>
+
+           <p> <strong> 5.1   Patients grievances: </strong>
+
+            <ol style="margin-left: 60px;">
+
+            <li>A Suggestion/Complaint Box shall be available at convenient locations for patients/customers to lodge their complaints or submit suggestions.</li> <br> 
+            <li>There should be a mechanism to redress all complaints/ suggestions.</li> <br> 
+            <li>Nursing Home should have the facility of obtaining suggestions / complaints from all the stake holders.</li> <br> 
+            
+            </ol>
+
+            
+
+
+            
+
+          
+
+
+          
+
+        
+
+            
+            
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1</td>
+                <td> 1, 2</td>
+                <td> 1, 2, 3</td>
+              </tr>
+
+          </table>
+
+
+          <p> <strong>6.0   Equipments:</strong>
+
+            <p> <strong> Intent </strong> </p>
+
+            <em> The intent of the standard is to ensure that all the equipments are in well maintained condition and are dependable.  </em>
+
+            <p> <strong>  6.1   Equipments – List, maintenance & calibration status </strong></p>
+
+            <ol style="margin-left: 60px;">
+
+            <li> NH shall have a list of important equipments. All equipments should be clean, stain-free and in well maintained condition.</li> <br> 
+            <li>Equipments, which are not working, should be suitably identified. </li> <br>
+            <li>NH shall maintain list of equipments that need calibration. </li> <br>
+            <li>All the equipments should have history card/ logbook / register with service / repair record.</li> <br>
+            <li>Manuals & software CDs, if any, pertaining to equipments should be readily available for reference.</li> <br>
+            
+            </ol>
+
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1</td>
+                <td> 1, 2</td>
+                <td> 1, 2, 3, 4, 5</td>
+              </tr>
+
+          </table>
+
+            <p> <strong>  7.0   Continual improvement: </strong></p>
+
+            <p> <strong> Intent </strong></p>
+            <em>  To incorporate and document the history and pathway to take the Nursing Home to newer heights.</em>
+            <p> <strong> 7.1 </strong> NH should have objectives to improve its services.</p>
+
+            <ol type="a" style="margin-left: 60px;">
+
+            <li> The intent of the standard is to encourage NH to innovate and improve continually. Documented evidence of improvements made from previous audit should be available. </li> <br> 
+            
+            
+            </ol>
+
+            <p> <strong>  8) Additional requirements </strong></p>
+            <p> <strong> The NH shall fulfill below mentioned additional requirements: </strong></p>
+
+             <ol style="margin-left: 60px;">
+
+            <li> NH shall have facility to maintain cold chain. </li> <br>
+            <li> Emergency medicines should also be available at a place other than OT. </li> <br> 
+            <li> List of procedures that need consent form should be available. The consent form should be suitable for the purpose. </li> <br> 
+            <li> Criteria to be available with staff to identify patients who may require immediate attention. </li> <br> 
+            <li> Staff and doctors should know the procedure to handle medico legal cases. </li> <br> 
+            <li> NH shall maintain master file containing all stationery, formats, forms, broucheres etc. used in NH. </li> <br> 
+            <li> NH shall have 3 hours power back up. </li> <br> 
+            <li> IPD records and medicines prescribed shall be legible and wherever required, signed, dated and timed. </li> <br> 
+            <li> Informed consent should be obtained before photographing a patient which will reveal his / her identity. </li> <br> 
+            <li> Wherever video cameras are installed, suitable warning shall be prominently displayed. </li> <br> 
+            <li> The key paramedic staff shall be trained at least for one full day in a year. </li> <br> 
+            <li> Staff shall be aware about patient’s rights and responsibilities. </li> <br> 
+            <li> Evacuation plan shall be ready for disaster management.   </li> <br> 
+
+            
+            
+            </ol>
+
+
+            <table style="width:80%">
+              <tr>
+                <th> Item </th>
+                <th> Minimum </th>
+                <th> Optimum </th>
+                <th> Excellent </th>
+              </tr>
+
+              <tr>
+                <td> Objective element </td>
+                <td> 1 to 2 </td>
+                <td> 1 to 9 </td>
+                <td> 1 to 13 </td>
+              </tr>
+
+            </table> <br>
+
+            <p> <strong>  Note: </strong></p>
+
+            <ul style="margin-left: 80px;">
+              <li> Activities not documented will not be considered as done.</li>
+              <li> Shall means compulsory and should means recommended.</li>
+              <li> OT size for ophthalmic set up can be relaxed upto 20 sq.ft. for Optimum & Excellent grade.</li>
+              <li> For orthopedic set-up doing joint replacements, Heppa filter and laminar air flow is must for “Excellent grade”.</li>
+
+            </ul>
+
+            
+
+          </p>
+        </p>
+
+        <a
+          target="_self"
+          href="index.html"
+          class="hero-btn"
+          style="align-items: center"
+        >
+          Back
+        </a>
+      </div>
+
+      <div id="content9" class="content">
+        <p>
+          <p> <strong>Annexure – 1  </strong>
+           <br />
+
+           <p> Audit fee with effect from 01.09.2011 </p>
+
+           
+          
+
+
+          
+
+        
+
+            
+            
+            <table style="width:80%">
+              <tr>
+                <th> Sr.No </th>
+                <th> Detail Bed Strength </th>
+                <th> Certification Audit Fee in ₹ </th>
+                <th> Surveillance audit fee in ₹ </th>
+              </tr>
+
+              <tr>
+                <td> 1 </td>
+                <td> 1 to 11 </td>
+                <td> 8,500/- </td>
+                <td> 5.500/- </td>
+              </tr>
+
+              <tr>
+                <td> 2 </td>
+                <td> 11 to 20</td>
+                <td> 9,500/- </td>
+                <td> 6000/- </td>
+              </tr>
+
+              <tr>
+                <td> 3 </td>
+                <td>21 to 30 </td>
+                <td> 11,000/-</td>
+                <td> 7,000/- </td>
+              </tr>
+
+              <tr>
+                <td> 4 </td>
+                <td> 31 to 50 </td>
+                <td> 15,000/- </td>
+                <td> 11,500/- </td>
+              </tr>
+
+              <tr>
+                <td> 5 </td>
+                <td> 50 to 100</td>
+                <td> 18,000/-</td>
+                <td> 12,000/- </td>
+              </tr>
+
+
+              <tr>
+                <td>6 </td>
+                <td> Above 100</td>
+                <td> 30,000/- </td>
+                <td> 18,000/- </td>
+              </tr>
+
+              <tr>
+                <td>7 </td>
+                <td> Super Speciality</td>
+                <td> 12,500/- </td>
+                <td> 8,500/- </td>
+              </tr>
+
+          </table>
+
+
+          <p> <strong>Note:  Total 3 cheques to be sent as detailed below:</strong>
+
+            <ol style="margin-left: 60px;">
+
+            <li> One cheque of current date towards certification audit fee favoring “Forum for Enhancement of Quality in Healthcare” to be forwarded to 11, Apurva, Chembur Naka. Mumbai 400071. Tel: 6412 6265. </li> <br> 
+            <li>Second cheque, one year from the date of first cheque towards 1st surveillance audit fee favoring “Forum for Enhancement of Quality in Healthcare”. </li> <br>
+            <li> Third cheque, two years from the date of first cheque towards 2nd surveillance audit fee favoring “Forum for Enhancement of Quality in Healthcare”.</li><br>
+            <li>   Travelling charges snd out of pocket expencess will be charged extra and actual.   </li>
+            </ol>
+
+
+            <p style="margin-left: 60px;">  <strong> Cancellation Charges :</strong></p>
+             
+            <ul style="margin-left: 60px;">
+              <li>If audit is cancelled 48 hours. (or more ) prior to scheduled time of audit, Rs. 2,500.</li>
+              <li>If cancellation is less than 48 hours prior to scheduled time of audit,  Rs. 4,000.</li>
+            </ul>
+            
+
+          </p>
+        </p>
+        <a
+          target="_self"
+          href="index.html"
+          class="hero-btn"
+          style="align-items: center"
+        >
+          Back
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/read-more1.js"></script>
+  </body>
+</html>

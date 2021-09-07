@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+.main {
+  width: 70%;
+  margin: 50px auto;
+  overflow-y: scroll;
+  position: relative;
+  height: 900px;
+}
+.btn-box {
+  display: block;
+}
+.btn {
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  font-size: 1em;
+  color: #1a77cc;
+}
+.content {
+  background: #1a77cc;
+  overflow: hidden;
+  position: absolute;
+  padding: 20px;
+  color: #fff;
+  transform: translateX(100%);
+  transition: 0.5s;
+  height: 1580px;
+}
+
+.content p {
+  margin: 20px 0;
+  font-weight: 300;
+}
+.hero-btn {
+  background: #fff;
+  color: #1a77cc;
+  max-width: 150px;
+  border-radius: 32px;
+  padding: 13px 32px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 30px;
+}
+.hero-btn:hover {
+  background: red;
+  color: #fff;
+}
+#content1 {
+  transform: translateX(0px);
+}
+.btn.active {
+  background: #1a77cc;
+  color: #fff;
+}
