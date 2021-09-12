@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
     }
 
     body {
@@ -26,8 +28,33 @@
         width: auto;
         margin: 2vw;
         padding: 2vw;
+        background: linear-gradient(115deg, #56d8e4 10%, #c66df0 90%);
+        color: #fff;
+        font-size: 1.5em;
+        border-radius: 5px;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
     }
 </style>
+
 <body>
     <h1>Your verticals</h1>
     <div id="verticalsList">
@@ -45,6 +72,27 @@
         <div id="vertical">Vertical 1</div>
         <div id="vertical">Vertical 1</div>
     </div>
+    <script>
+        const verticals = [{
+            key: 'vertical 1',
+            value: 'https://www.google.com/'
+        },
+        {
+            key: 'vertical 1',
+            value: 'https://www.google.com/'
+        },
+        {
+            key: 'vertical 1',
+            value: 'https://www.google.com/'
+        },
+        {
+            key: 'vertical 1',
+            value: 'https://www.google.com/'
+        }
+        ]
 
+        document.getElementById("verticalsList")
+    </script>
 </body>
+
 </html>
